@@ -1,0 +1,14 @@
+--En este proyecto se trabajo con TINKER 
+    --se hicieron varias consultas usando el where | whereIn | implode | pluck 
+    --se usaron relaciones de 1 : N && N : M 
+        --post::where()->with('tablas')->get()
+        --post::with('tablas')->find()
+    --Se guardaron relaciones usando eloquent
+        --Relacion de 1 a N
+            --usando el metodo de las relaciones y luego save
+        --Relaciones N : M
+            -- attach | detach
+
+Leer Documentacion
+    --https://documentacion-laravel.com/eloquent-relationships.html#insertando-y-actualizando-modelos-relacionados  
+    --https://laravel.com/docs/5.8/eloquent-relationships#many-to-many
